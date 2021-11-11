@@ -23,6 +23,7 @@
 		<td>{{$comic['price']}}</td>
 		<td>
 			<a href="{{route("comics.show", $comic["id"])}}"><button type="button" class="btn btn-primary">Visualizza</button></a>
+			<a href="{{route("comics.edit", $comic["id"])}}"><button type="button" class="btn btn-secondary mt-2">Modifica</button></a>
 		</td>
 	  </tr>
 	  @endforeach
